@@ -65,4 +65,9 @@ main .profile__container .profile__social-links .profile__social-link{
     padding: 12px;
     width: 100%;
     border-radius:8px;
+    transition: all 0.3s ease;
+}
+main .profile__container .profile__social-links .profile__social-link:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
 }
